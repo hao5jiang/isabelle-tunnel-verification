@@ -1,0 +1,279 @@
+{
+  "schema_version": 1,
+  "recorded_at": "2026-10-03T10:12:22.1677373+10:00",
+  "session": "Tunnel_Knowledge",
+  "isabelle_version": "Isabelle2025-2",
+  "full_build_completed": "2026-10-03T10:05:08+10:00",
+  "freshness_check_completed": "2026-10-03T10:09:50+10:00",
+  "project_theory_count": 27,
+  "export_entry": "Tunnel_Knowledge.Receiver_Codegen:code/ReceiverGate.ML",
+  "export_byte_comparison": "passed",
+  "full_execution_requests": 322840,
+  "interactive_requests": 2,
+  "checker_wrong_response_controls": 5,
+  "isolated_copy_controls": 3,
+  "check_scripts_passed": 20,
+  "receiver_tags": {
+    "0": "ControllerPort",
+    "1": "DevicePort A",
+    "2": "DevicePort B"
+  },
+  "math_max_width": 255,
+  "text_interface_max_width": 64,
+  "runtime": {
+    "version": "Poly/ML 5.9.2 Release",
+    "platform": "x86_64_32-windows",
+    "sha256": "2bfca3e2d6e653793164be0ba6cad7c2140419f8aae4a75d9e283e3e686711f4"
+  },
+  "files": [
+    {
+      "path": "Bounded_Identifiers.thy",
+      "sha256": "412fd6a889bcb14d430dbe20409ddd3787bd4afaa8a9e0d6805ad92c70196991"
+    },
+    {
+      "path": "check_activation.py",
+      "sha256": "a0801130453df878bf3568a4fee9352291ebadff4c705faccac05916aafa039a"
+    },
+    {
+      "path": "check_admission.py",
+      "sha256": "01fe8d885affba66942d75fe84fce7d7fd3efcdc2fd5f45fa15834697dd73eca"
+    },
+    {
+      "path": "check_bounded.py",
+      "sha256": "c9a2a4a1fb028ec65f3aad9299973317acb975e66ef2ce59bc50f36105cde454"
+    },
+    {
+      "path": "check_codegen_negative_controls.py",
+      "sha256": "f855cbe9dfac38a168a3952160ec57fbf734e5c62e06908ce04acff7f8428f6f"
+    },
+    {
+      "path": "check_delayed.py",
+      "sha256": "7382aa3cc540f72fae9992079fc234c99907f636f2c5ca2230f634e0029e616d"
+    },
+    {
+      "path": "check_endpoint.py",
+      "sha256": "8a751f4a42163d6acf63b5fb1746e7e7070583fcf50c1ab0ecfcfa453c3b9fa1"
+    },
+    {
+      "path": "check_epoch_codec.py",
+      "sha256": "e5fa4231f3a0e1e9b2b1afd239a99c963e7d1db44e0c98f2048f14b26f1e84d5"
+    },
+    {
+      "path": "check_fenced.py",
+      "sha256": "b44bef8a50158d58d783c11f88c8917a49cd357f79a9898ea5def28d3ec9fda5"
+    },
+    {
+      "path": "check_finite_activation.py",
+      "sha256": "c8f6f8392d523a9bc93f149a0e1d301c5e373383fff1bbd9ca91bcf90df274c8"
+    },
+    {
+      "path": "check_frame_negative_controls.py",
+      "sha256": "8f06c158ad532e0f16f8c8733c8dbc29b621439f76b39ba937e00926500ee267"
+    },
+    {
+      "path": "check_generated_codec.py",
+      "sha256": "1232ce70ae5b55c7707c53fbc524790550432fe98f604fefa1043c89f4a5b00e"
+    },
+    {
+      "path": "check_generated_frame.py",
+      "sha256": "29faa2a7e3ec971aa205c543418c94ed850bb49a019c6e2b445e834c922e3ff0"
+    },
+    {
+      "path": "check_generated_receiver.py",
+      "sha256": "8f3f2cb08532fb91d5e6acd2639f2123b52c833225b8c65bf2480c2f03256c81"
+    },
+    {
+      "path": "check_journal.py",
+      "sha256": "9acc878f84772bfffbea0626cdad60a9de38c4446fc392a66b4185e8fd293dbb"
+    },
+    {
+      "path": "check_model.py",
+      "sha256": "74c6229ba6607af20e345da0cdac8eb4920e48f996e816bf7902a57f2ca24f16"
+    },
+    {
+      "path": "check_numbered.py",
+      "sha256": "5fcd92bc09dc7c44729d04346c7b6180442477a0f00df4aa8bc89f6bbf2edd54"
+    },
+    {
+      "path": "check_physical.py",
+      "sha256": "a9b0ca75e19ad7ba3aa2e1f8962b18beec4da2ffbf6f8822471fa8e56c424c22"
+    },
+    {
+      "path": "check_receiver_binding.py",
+      "sha256": "fdf6060d1e24f5de19d9869350324917ae448373b82b406cf985e9b7f0938cd0"
+    },
+    {
+      "path": "check_receiver_negative_controls.py",
+      "sha256": "4abb0308fadcce176562e2b326f59a5212bed7df4da713cd7d559b84cdee9cec"
+    },
+    {
+      "path": "check_tunnel_frame.py",
+      "sha256": "b8eae41481f892f0ef94862b56244c0adfeb15ddd4fc30eb4f1eead41609d8a1"
+    },
+    {
+      "path": "Checkpoint_Integration.thy",
+      "sha256": "a6060eb0120bfb7963abe244e71c956a1363ab29124cea47577d8d52d9c9a15e"
+    },
+    {
+      "path": "Checkpoint_Journal.thy",
+      "sha256": "47fe0d1caa3e8b23f86397c5b571ab61470da0cea9d20ed3c51bc97c4dd75a9c"
+    },
+    {
+      "path": "Datagram_Activation.thy",
+      "sha256": "44ae1b38e29aa612c9358ee295079bcb90461a7938008e2d8c5fdb1e0f93e7a5"
+    },
+    {
+      "path": "Delayed_Controller.thy",
+      "sha256": "0589cfb2956e7ac3064b0c5ad25f321a11734c892d3cab7cffa3f3d9aeb9c3a2"
+    },
+    {
+      "path": "Durable_Admission.thy",
+      "sha256": "a684592c06811e5b0e39179954a11451239a8a5f76289d784315dc8fe5095745"
+    },
+    {
+      "path": "Encoded_Activation.thy",
+      "sha256": "a88aa67dedea0465e21c15211732daf8bae9e87864bbe79efeab8f0de74c918d"
+    },
+    {
+      "path": "Endpoint_Activation.thy",
+      "sha256": "8f3ef7a002024800027c64096f7ddfc0e7fea29ed64bf2ef769ddde52b84fa07"
+    },
+    {
+      "path": "Endpoint_Persistence.thy",
+      "sha256": "2f568763a95729f56156b6db3802c6e435e926fc429d687be00ea7d538361fec"
+    },
+    {
+      "path": "Epoch_Byte_Codec.thy",
+      "sha256": "3dbdfa215e7601867241885285bb7dc536a1d3ccab2dec71f4415c998c9058b6"
+    },
+    {
+      "path": "Epoch_Codegen.thy",
+      "sha256": "1ec3c0c3a11bbadf859e9fa080377cfe3ef378b1fa81084f3c4b41af4e414f68"
+    },
+    {
+      "path": "Fenced_Handoff.thy",
+      "sha256": "2fab7cb9dfbcc45adaaac43f5f2ce64bbc0b3b22759e1eb0205162d4d0cb06de"
+    },
+    {
+      "path": "Finite_Activation.thy",
+      "sha256": "93bbef13125d2f4460a58f7f47bdf23636e742ea553c3c0698e7d87fedef22d2"
+    },
+    {
+      "path": "Finite_CTLK.thy",
+      "sha256": "0efa129ad6ccee931936c6499a8c564833568da03251182069c43439597e897a"
+    },
+    {
+      "path": "Finite_Exhaustion.thy",
+      "sha256": "1c87531d8f0aafc934e00bdc62d74b4d3294cd9069f52cddb4f0af904fe4fccb"
+    },
+    {
+      "path": "Frame_Codegen.thy",
+      "sha256": "7265cc6d6651429493126ee3cb0daad4c6ed7d1156edc8a045e822baf6ee55f9"
+    },
+    {
+      "path": "generated_codec_cli.ML",
+      "sha256": "1649349447b59e94a7f5cce38fa8f2772f99c83016f7679eb1890028df114a4b"
+    },
+    {
+      "path": "GENERATED_CODEC.md",
+      "sha256": "91be9f4c2f21118edb946e04c7999bea8dbec040f5cd3c734402c58206472a94"
+    },
+    {
+      "path": "generated_frame_cli.ML",
+      "sha256": "d645865f41c3183030402c637d5ff40bdedc18ac84d62421d770033f5302924d"
+    },
+    {
+      "path": "generated_receiver_cli.ML",
+      "sha256": "1129e8a848191a09a965e9ec46266a070a0fd0fcbf217145d7d31c0623a3bcee"
+    },
+    {
+      "path": "generated/EpochCodec.ML",
+      "sha256": "f616ec0b3f8745480ef09a65e24dde2254a3425b3275b1af3efd3ed2499d2ecc"
+    },
+    {
+      "path": "generated/FrameCodec.ML",
+      "sha256": "b0811e7fae09322076b160290fc5ed376eaf875c518a2f09760b32c37aba2e48"
+    },
+    {
+      "path": "generated/ReceiverGate.ML",
+      "sha256": "3cd7a41df20af88896843a90b61cc7f3befb7e9f348655247e631a012bb795e1"
+    },
+    {
+      "path": "ISABELLE_GUIDE.md",
+      "sha256": "3b70ef6e1794a634e98962fe2fafe061ff9296094073189f40ecafd778ed51a0"
+    },
+    {
+      "path": "Journal_Bounds.thy",
+      "sha256": "945d269e0825fbf78a5dc70e085f0c226dad30a3b75c7202ae09ea7558282084"
+    },
+    {
+      "path": "Numbered_Controller.thy",
+      "sha256": "74dc4e54050f5dbe0218049665460634f7b11567e3564278448e1162d51de938"
+    },
+    {
+      "path": "Physical_Controller.thy",
+      "sha256": "9331723a503f04a01287979361be8a006446badf29b42fcce8b9f26f76bada19"
+    },
+    {
+      "path": "Physical_Recovery.thy",
+      "sha256": "a43b95f0de5b8d01cd975dbe90e9b9c16ddb60dec4ac691139274279bdef4ea0"
+    },
+    {
+      "path": "README.md",
+      "sha256": "492ab4ad3cc9cbd55a2213079c33fbbdd6d64583616c3169d80fa69911eb0c2b"
+    },
+    {
+      "path": "RECEIVER_BINDING.md",
+      "sha256": "1cbe3aa6bd197eabc088667a43b41b4a3ec2975a61380f2400bf1f897f668655"
+    },
+    {
+      "path": "Receiver_Binding.thy",
+      "sha256": "57d290d1a9ee122fd83435fa16c8f6025dfa34c24d0905d2331467dc1e6a327f"
+    },
+    {
+      "path": "Receiver_Codegen.thy",
+      "sha256": "2c1453b01e671d722cc7c1fdec6d135401deaab523d0d21de3ce4423000e9394"
+    },
+    {
+      "path": "ROOT",
+      "sha256": "1739047b3abea92c863ed2805a1ee17783b19c1f137540e2367d2d59de658afd"
+    },
+    {
+      "path": "Round_Robin.thy",
+      "sha256": "19c1033b897aad7d8786a7a01d601ff5dd7f27bc16af4d5609adb50a690b7985"
+    },
+    {
+      "path": "Tunnel_CTLK.thy",
+      "sha256": "896d781ccc72695feaa0826e46e517c8878148c195115762ff9a644f33752ec6"
+    },
+    {
+      "path": "TUNNEL_FRAME.md",
+      "sha256": "c7b1d9e63fb49763f1bbcbb6d9f165ed0b6340c43b75b9e474489ba857f3900b"
+    },
+    {
+      "path": "Tunnel_Frame.thy",
+      "sha256": "6d62ed753a64bf31bd8c95c3d61e6fe2197813c32e846f4765fd3b893d378489"
+    },
+    {
+      "path": "Tunnel_Knowledge.thy",
+      "sha256": "4afdd936c580814529570eed4830e45a90658b91e461c8d8e9b25540d15db8cb"
+    },
+    {
+      "path": "Tunnel_Liveness.thy",
+      "sha256": "ff2a0a0ef5e77bb44320bab03884d743e1619b514f118018161af680b4fc4ae0"
+    },
+    {
+      "path": "verify_generated_codec.ps1",
+      "sha256": "88cd99cd5dcaf45b9da543f0f87491ca7c443bd15df47cb35284d12d58ee5bf1"
+    },
+    {
+      "path": "verify_generated_frame.ps1",
+      "sha256": "b89d1bb878be4a8042c57165f6112775d34bcb3fa1c4994b1d21ca2ee32190b2"
+    },
+    {
+      "path": "verify_generated_receiver.ps1",
+      "sha256": "66bb10850e75b356d52d752c6a8280a81860812894a9135a5703fb10b8b70f31"
+    }
+  ],
+  "scope": "Run record, not a signature or proof of compiler/runtime correctness. Exported code checks a trusted local receiver argument; this is not sender authentication, verified socket binding, or physical delivery. Rebuild and compare the named session export to establish current provenance."
+}

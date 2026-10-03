@@ -1,0 +1,334 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-03",
+  "timezone": "Australia/Brisbane",
+  "session": "Tunnel_Knowledge",
+  "isabelle_version": "Isabelle2025-2",
+  "publish_copy_build_completed": "2026-10-03T10:30:38+10:00",
+  "project_theories": 27,
+  "check_scripts_passed": 20,
+  "receiver_runtime_requests": 322840,
+  "interactive_requests": 2,
+  "export_byte_comparison": "passed",
+  "theories_and_generated_cores_match_original": true,
+  "changes": "Personal paths removed; portable runtime discovery and repository documentation added. Historical manifests retained as historical records.",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "sha256": "8c52bb157a9abdd976d93d3b60d779f80e16e37fe38221448219e48b3cec41fa"
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "a489bd1ba23b2182d872e45f4406bd74c387cbe41c8461c340789654c569544f"
+    },
+    {
+      "path": "README.md",
+      "sha256": "1c5fb74a4e7b22dc83a22d0658926ffaca0ebfcf2867dd84520f4d8745b4fb21"
+    },
+    {
+      "path": "isabelle_tunnel/BOUNDED_CHECKPOINTS.md",
+      "sha256": "23a39e4f48a471d1359d91510d29167ad64f2119986b1311d792bc7db692abac"
+    },
+    {
+      "path": "isabelle_tunnel/Bounded_Identifiers.thy",
+      "sha256": "412fd6a889bcb14d430dbe20409ddd3787bd4afaa8a9e0d6805ad92c70196991"
+    },
+    {
+      "path": "isabelle_tunnel/CODEGEN_MANIFEST.json",
+      "sha256": "df93f9dce246f7a91af58595e3e7d39912736843a61892842e14f636ec86e5a5"
+    },
+    {
+      "path": "isabelle_tunnel/Checkpoint_Integration.thy",
+      "sha256": "a6060eb0120bfb7963abe244e71c956a1363ab29124cea47577d8d52d9c9a15e"
+    },
+    {
+      "path": "isabelle_tunnel/Checkpoint_Journal.thy",
+      "sha256": "47fe0d1caa3e8b23f86397c5b571ab61470da0cea9d20ed3c51bc97c4dd75a9c"
+    },
+    {
+      "path": "isabelle_tunnel/DELAYED_CONTROLLER.md",
+      "sha256": "c15881f09c343d6603a5e36234da4ce1b64663ddca93d39a00bd6f56c9067386"
+    },
+    {
+      "path": "isabelle_tunnel/DURABLE_ADMISSION.md",
+      "sha256": "4c578efd8d31abae119cce9dad4dcec5033808fa3a51f4c76feab6b32ac4a637"
+    },
+    {
+      "path": "isabelle_tunnel/Datagram_Activation.thy",
+      "sha256": "44ae1b38e29aa612c9358ee295079bcb90461a7938008e2d8c5fdb1e0f93e7a5"
+    },
+    {
+      "path": "isabelle_tunnel/Delayed_Controller.thy",
+      "sha256": "0589cfb2956e7ac3064b0c5ad25f321a11734c892d3cab7cffa3f3d9aeb9c3a2"
+    },
+    {
+      "path": "isabelle_tunnel/Durable_Admission.thy",
+      "sha256": "a684592c06811e5b0e39179954a11451239a8a5f76289d784315dc8fe5095745"
+    },
+    {
+      "path": "isabelle_tunnel/ENDPOINT_ACTIVATION.md",
+      "sha256": "ad80fc5b5bc6f34892bce0a76a09bfdd748422aebc5798b18b2094b8077b73ee"
+    },
+    {
+      "path": "isabelle_tunnel/ENDPOINT_PERSISTENCE.md",
+      "sha256": "c49b743f06d6c262e5cb2b5eda8222fd051c20a01a03f49cfe5715457bbcc15e"
+    },
+    {
+      "path": "isabelle_tunnel/EPOCH_BYTE_CODEC.md",
+      "sha256": "630a1fd92e68cdc3431058874f44b5421f6190456a009cd55da77fc78c3508ff"
+    },
+    {
+      "path": "isabelle_tunnel/Encoded_Activation.thy",
+      "sha256": "a88aa67dedea0465e21c15211732daf8bae9e87864bbe79efeab8f0de74c918d"
+    },
+    {
+      "path": "isabelle_tunnel/Endpoint_Activation.thy",
+      "sha256": "8f3ef7a002024800027c64096f7ddfc0e7fea29ed64bf2ef769ddde52b84fa07"
+    },
+    {
+      "path": "isabelle_tunnel/Endpoint_Persistence.thy",
+      "sha256": "2f568763a95729f56156b6db3802c6e435e926fc429d687be00ea7d538361fec"
+    },
+    {
+      "path": "isabelle_tunnel/Epoch_Byte_Codec.thy",
+      "sha256": "3dbdfa215e7601867241885285bb7dc536a1d3ccab2dec71f4415c998c9058b6"
+    },
+    {
+      "path": "isabelle_tunnel/Epoch_Codegen.thy",
+      "sha256": "1ec3c0c3a11bbadf859e9fa080377cfe3ef378b1fa81084f3c4b41af4e414f68"
+    },
+    {
+      "path": "isabelle_tunnel/FENCED_HANDOFF.md",
+      "sha256": "6246e7d2bf27d06dbc578c2c589a66675f795bfc4e5996de33211a0c329e73d7"
+    },
+    {
+      "path": "isabelle_tunnel/FINITE_ACTIVATION.md",
+      "sha256": "d1e219a20c4ac41e93027eb51b8a8cb429aa575dd59d25c0b71410982dabf46f"
+    },
+    {
+      "path": "isabelle_tunnel/FRAME_MANIFEST.json",
+      "sha256": "ee8e40787ad05efe90e5dae85246f465543998e7da459aaf4aaeac5c0bb68367"
+    },
+    {
+      "path": "isabelle_tunnel/Fenced_Handoff.thy",
+      "sha256": "2fab7cb9dfbcc45adaaac43f5f2ce64bbc0b3b22759e1eb0205162d4d0cb06de"
+    },
+    {
+      "path": "isabelle_tunnel/Finite_Activation.thy",
+      "sha256": "93bbef13125d2f4460a58f7f47bdf23636e742ea553c3c0698e7d87fedef22d2"
+    },
+    {
+      "path": "isabelle_tunnel/Finite_CTLK.thy",
+      "sha256": "0efa129ad6ccee931936c6499a8c564833568da03251182069c43439597e897a"
+    },
+    {
+      "path": "isabelle_tunnel/Finite_Exhaustion.thy",
+      "sha256": "1c87531d8f0aafc934e00bdc62d74b4d3294cd9069f52cddb4f0af904fe4fccb"
+    },
+    {
+      "path": "isabelle_tunnel/Frame_Codegen.thy",
+      "sha256": "7265cc6d6651429493126ee3cb0daad4c6ed7d1156edc8a045e822baf6ee55f9"
+    },
+    {
+      "path": "isabelle_tunnel/GENERATED_CODEC.md",
+      "sha256": "91be9f4c2f21118edb946e04c7999bea8dbec040f5cd3c734402c58206472a94"
+    },
+    {
+      "path": "isabelle_tunnel/ISABELLE_GUIDE.md",
+      "sha256": "3b70ef6e1794a634e98962fe2fafe061ff9296094073189f40ecafd778ed51a0"
+    },
+    {
+      "path": "isabelle_tunnel/Journal_Bounds.thy",
+      "sha256": "945d269e0825fbf78a5dc70e085f0c226dad30a3b75c7202ae09ea7558282084"
+    },
+    {
+      "path": "isabelle_tunnel/NUMBERED_CONTROLLER.md",
+      "sha256": "c039736d94e219e3ce53323303cdca85788597f2d61e83b03c3c4ebd2e572bf8"
+    },
+    {
+      "path": "isabelle_tunnel/Numbered_Controller.thy",
+      "sha256": "74dc4e54050f5dbe0218049665460634f7b11567e3564278448e1162d51de938"
+    },
+    {
+      "path": "isabelle_tunnel/PHYSICAL_RECOVERY.md",
+      "sha256": "ff18d52c8cb24cbd3be9597a4eae1637615558a7dcc11f9ac21978430cfa7232"
+    },
+    {
+      "path": "isabelle_tunnel/Physical_Controller.thy",
+      "sha256": "9331723a503f04a01287979361be8a006446badf29b42fcce8b9f26f76bada19"
+    },
+    {
+      "path": "isabelle_tunnel/Physical_Recovery.thy",
+      "sha256": "a43b95f0de5b8d01cd975dbe90e9b9c16ddb60dec4ac691139274279bdef4ea0"
+    },
+    {
+      "path": "isabelle_tunnel/README.md",
+      "sha256": "04abe5567d939751e8a59e8981a70daf141645289e71e4b7d3a11e79a0fe82d9"
+    },
+    {
+      "path": "isabelle_tunnel/RECEIVER_BINDING.md",
+      "sha256": "1cbe3aa6bd197eabc088667a43b41b4a3ec2975a61380f2400bf1f897f668655"
+    },
+    {
+      "path": "isabelle_tunnel/RECEIVER_MANIFEST.json",
+      "sha256": "2b3e9f581d8e7b24ac0186c457e97b01ef86208d95c7b6d52b7b491e6389c53f"
+    },
+    {
+      "path": "isabelle_tunnel/ROOT",
+      "sha256": "1739047b3abea92c863ed2805a1ee17783b19c1f137540e2367d2d59de658afd"
+    },
+    {
+      "path": "isabelle_tunnel/ROUND_ROBIN.md",
+      "sha256": "4b45dae81c405fccf0c6b8c1c999af0fd9bd4fbc251b35a4bd9d6c38fa51ace0"
+    },
+    {
+      "path": "isabelle_tunnel/Receiver_Binding.thy",
+      "sha256": "57d290d1a9ee122fd83435fa16c8f6025dfa34c24d0905d2331467dc1e6a327f"
+    },
+    {
+      "path": "isabelle_tunnel/Receiver_Codegen.thy",
+      "sha256": "2c1453b01e671d722cc7c1fdec6d135401deaab523d0d21de3ce4423000e9394"
+    },
+    {
+      "path": "isabelle_tunnel/Round_Robin.thy",
+      "sha256": "19c1033b897aad7d8786a7a01d601ff5dd7f27bc16af4d5609adb50a690b7985"
+    },
+    {
+      "path": "isabelle_tunnel/TUNNEL_FRAME.md",
+      "sha256": "c7b1d9e63fb49763f1bbcbb6d9f165ed0b6340c43b75b9e474489ba857f3900b"
+    },
+    {
+      "path": "isabelle_tunnel/Tunnel_CTLK.thy",
+      "sha256": "896d781ccc72695feaa0826e46e517c8878148c195115762ff9a644f33752ec6"
+    },
+    {
+      "path": "isabelle_tunnel/Tunnel_Frame.thy",
+      "sha256": "6d62ed753a64bf31bd8c95c3d61e6fe2197813c32e846f4765fd3b893d378489"
+    },
+    {
+      "path": "isabelle_tunnel/Tunnel_Knowledge.thy",
+      "sha256": "4afdd936c580814529570eed4830e45a90658b91e461c8d8e9b25540d15db8cb"
+    },
+    {
+      "path": "isabelle_tunnel/Tunnel_Liveness.thy",
+      "sha256": "ff2a0a0ef5e77bb44320bab03884d743e1619b514f118018161af680b4fc4ae0"
+    },
+    {
+      "path": "isabelle_tunnel/check_activation.py",
+      "sha256": "a0801130453df878bf3568a4fee9352291ebadff4c705faccac05916aafa039a"
+    },
+    {
+      "path": "isabelle_tunnel/check_admission.py",
+      "sha256": "01fe8d885affba66942d75fe84fce7d7fd3efcdc2fd5f45fa15834697dd73eca"
+    },
+    {
+      "path": "isabelle_tunnel/check_bounded.py",
+      "sha256": "c9a2a4a1fb028ec65f3aad9299973317acb975e66ef2ce59bc50f36105cde454"
+    },
+    {
+      "path": "isabelle_tunnel/check_codegen_negative_controls.py",
+      "sha256": "f855cbe9dfac38a168a3952160ec57fbf734e5c62e06908ce04acff7f8428f6f"
+    },
+    {
+      "path": "isabelle_tunnel/check_delayed.py",
+      "sha256": "7382aa3cc540f72fae9992079fc234c99907f636f2c5ca2230f634e0029e616d"
+    },
+    {
+      "path": "isabelle_tunnel/check_endpoint.py",
+      "sha256": "8a751f4a42163d6acf63b5fb1746e7e7070583fcf50c1ab0ecfcfa453c3b9fa1"
+    },
+    {
+      "path": "isabelle_tunnel/check_epoch_codec.py",
+      "sha256": "e5fa4231f3a0e1e9b2b1afd239a99c963e7d1db44e0c98f2048f14b26f1e84d5"
+    },
+    {
+      "path": "isabelle_tunnel/check_fenced.py",
+      "sha256": "b44bef8a50158d58d783c11f88c8917a49cd357f79a9898ea5def28d3ec9fda5"
+    },
+    {
+      "path": "isabelle_tunnel/check_finite_activation.py",
+      "sha256": "c8f6f8392d523a9bc93f149a0e1d301c5e373383fff1bbd9ca91bcf90df274c8"
+    },
+    {
+      "path": "isabelle_tunnel/check_frame_negative_controls.py",
+      "sha256": "8f06c158ad532e0f16f8c8733c8dbc29b621439f76b39ba937e00926500ee267"
+    },
+    {
+      "path": "isabelle_tunnel/check_generated_codec.py",
+      "sha256": "07753d12eec37f0203d3535444e0ee16caba076537b056ec9b677c50b41ca45c"
+    },
+    {
+      "path": "isabelle_tunnel/check_generated_frame.py",
+      "sha256": "29faa2a7e3ec971aa205c543418c94ed850bb49a019c6e2b445e834c922e3ff0"
+    },
+    {
+      "path": "isabelle_tunnel/check_generated_receiver.py",
+      "sha256": "8f3f2cb08532fb91d5e6acd2639f2123b52c833225b8c65bf2480c2f03256c81"
+    },
+    {
+      "path": "isabelle_tunnel/check_journal.py",
+      "sha256": "9acc878f84772bfffbea0626cdad60a9de38c4446fc392a66b4185e8fd293dbb"
+    },
+    {
+      "path": "isabelle_tunnel/check_model.py",
+      "sha256": "74c6229ba6607af20e345da0cdac8eb4920e48f996e816bf7902a57f2ca24f16"
+    },
+    {
+      "path": "isabelle_tunnel/check_numbered.py",
+      "sha256": "5fcd92bc09dc7c44729d04346c7b6180442477a0f00df4aa8bc89f6bbf2edd54"
+    },
+    {
+      "path": "isabelle_tunnel/check_physical.py",
+      "sha256": "a9b0ca75e19ad7ba3aa2e1f8962b18beec4da2ffbf6f8822471fa8e56c424c22"
+    },
+    {
+      "path": "isabelle_tunnel/check_receiver_binding.py",
+      "sha256": "fdf6060d1e24f5de19d9869350324917ae448373b82b406cf985e9b7f0938cd0"
+    },
+    {
+      "path": "isabelle_tunnel/check_receiver_negative_controls.py",
+      "sha256": "4abb0308fadcce176562e2b326f59a5212bed7df4da713cd7d559b84cdee9cec"
+    },
+    {
+      "path": "isabelle_tunnel/check_tunnel_frame.py",
+      "sha256": "b8eae41481f892f0ef94862b56244c0adfeb15ddd4fc30eb4f1eead41609d8a1"
+    },
+    {
+      "path": "isabelle_tunnel/generated/EpochCodec.ML",
+      "sha256": "f616ec0b3f8745480ef09a65e24dde2254a3425b3275b1af3efd3ed2499d2ecc"
+    },
+    {
+      "path": "isabelle_tunnel/generated/FrameCodec.ML",
+      "sha256": "b0811e7fae09322076b160290fc5ed376eaf875c518a2f09760b32c37aba2e48"
+    },
+    {
+      "path": "isabelle_tunnel/generated/ReceiverGate.ML",
+      "sha256": "3cd7a41df20af88896843a90b61cc7f3befb7e9f348655247e631a012bb795e1"
+    },
+    {
+      "path": "isabelle_tunnel/generated_codec_cli.ML",
+      "sha256": "1649349447b59e94a7f5cce38fa8f2772f99c83016f7679eb1890028df114a4b"
+    },
+    {
+      "path": "isabelle_tunnel/generated_frame_cli.ML",
+      "sha256": "d645865f41c3183030402c637d5ff40bdedc18ac84d62421d770033f5302924d"
+    },
+    {
+      "path": "isabelle_tunnel/generated_receiver_cli.ML",
+      "sha256": "1129e8a848191a09a965e9ec46266a070a0fd0fcbf217145d7d31c0623a3bcee"
+    },
+    {
+      "path": "isabelle_tunnel/verify_generated_codec.ps1",
+      "sha256": "0bba8b672742ed52994cca8ed3a2b0624523e8cf4d2f4241c4507b707594237d"
+    },
+    {
+      "path": "isabelle_tunnel/verify_generated_frame.ps1",
+      "sha256": "b2c51a29c69bd33d5bd2d01077f664689619f80ebb89fb4fc61d50a1db3bc202"
+    },
+    {
+      "path": "isabelle_tunnel/verify_generated_receiver.ps1",
+      "sha256": "179afea33be8422c20975b3265b18215201d10df68eee7dbd1f08502b319c888"
+    }
+  ],
+  "scope": "File hashes exclude this manifest itself. Verification record, not a digital signature or a deployment assurance."
+}

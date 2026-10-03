@@ -1,0 +1,134 @@
+{
+  "schema_version": 1,
+  "recorded_at": "2026-10-03T09:27:07.4759830+10:00",
+  "session": "Tunnel_Knowledge",
+  "isabelle_version": "Isabelle2025-2",
+  "full_build_completed": "2026-10-03T09:16:04+10:00",
+  "freshness_check_completed": "2026-10-03T09:25:35+10:00",
+  "export_entry": "Tunnel_Knowledge.Epoch_Codegen:code/EpochCodec.ML",
+  "export_byte_comparison": "passed",
+  "full_execution_requests": 405588,
+  "interactive_requests": 2,
+  "isolated_copy_controls": 3,
+  "check_scripts_passed": 14,
+  "runtime": {
+    "version": "Poly/ML 5.9.2 Release",
+    "platform": "x86_64_32-windows",
+    "sha256": "2bfca3e2d6e653793164be0ba6cad7c2140419f8aae4a75d9e283e3e686711f4"
+  },
+  "files": [
+    {
+      "path": "Bounded_Identifiers.thy",
+      "sha256": "412fd6a889bcb14d430dbe20409ddd3787bd4afaa8a9e0d6805ad92c70196991"
+    },
+    {
+      "path": "check_codegen_negative_controls.py",
+      "sha256": "f855cbe9dfac38a168a3952160ec57fbf734e5c62e06908ce04acff7f8428f6f"
+    },
+    {
+      "path": "check_generated_codec.py",
+      "sha256": "1232ce70ae5b55c7707c53fbc524790550432fe98f604fefa1043c89f4a5b00e"
+    },
+    {
+      "path": "Checkpoint_Integration.thy",
+      "sha256": "a6060eb0120bfb7963abe244e71c956a1363ab29124cea47577d8d52d9c9a15e"
+    },
+    {
+      "path": "Checkpoint_Journal.thy",
+      "sha256": "47fe0d1caa3e8b23f86397c5b571ab61470da0cea9d20ed3c51bc97c4dd75a9c"
+    },
+    {
+      "path": "Delayed_Controller.thy",
+      "sha256": "0589cfb2956e7ac3064b0c5ad25f321a11734c892d3cab7cffa3f3d9aeb9c3a2"
+    },
+    {
+      "path": "Durable_Admission.thy",
+      "sha256": "a684592c06811e5b0e39179954a11451239a8a5f76289d784315dc8fe5095745"
+    },
+    {
+      "path": "Encoded_Activation.thy",
+      "sha256": "a88aa67dedea0465e21c15211732daf8bae9e87864bbe79efeab8f0de74c918d"
+    },
+    {
+      "path": "Endpoint_Activation.thy",
+      "sha256": "8f3ef7a002024800027c64096f7ddfc0e7fea29ed64bf2ef769ddde52b84fa07"
+    },
+    {
+      "path": "Endpoint_Persistence.thy",
+      "sha256": "2f568763a95729f56156b6db3802c6e435e926fc429d687be00ea7d538361fec"
+    },
+    {
+      "path": "Epoch_Byte_Codec.thy",
+      "sha256": "3dbdfa215e7601867241885285bb7dc536a1d3ccab2dec71f4415c998c9058b6"
+    },
+    {
+      "path": "Epoch_Codegen.thy",
+      "sha256": "1ec3c0c3a11bbadf859e9fa080377cfe3ef378b1fa81084f3c4b41af4e414f68"
+    },
+    {
+      "path": "Fenced_Handoff.thy",
+      "sha256": "2fab7cb9dfbcc45adaaac43f5f2ce64bbc0b3b22759e1eb0205162d4d0cb06de"
+    },
+    {
+      "path": "Finite_Activation.thy",
+      "sha256": "93bbef13125d2f4460a58f7f47bdf23636e742ea553c3c0698e7d87fedef22d2"
+    },
+    {
+      "path": "Finite_CTLK.thy",
+      "sha256": "0efa129ad6ccee931936c6499a8c564833568da03251182069c43439597e897a"
+    },
+    {
+      "path": "Finite_Exhaustion.thy",
+      "sha256": "1c87531d8f0aafc934e00bdc62d74b4d3294cd9069f52cddb4f0af904fe4fccb"
+    },
+    {
+      "path": "generated_codec_cli.ML",
+      "sha256": "1649349447b59e94a7f5cce38fa8f2772f99c83016f7679eb1890028df114a4b"
+    },
+    {
+      "path": "generated/EpochCodec.ML",
+      "sha256": "f616ec0b3f8745480ef09a65e24dde2254a3425b3275b1af3efd3ed2499d2ecc"
+    },
+    {
+      "path": "Journal_Bounds.thy",
+      "sha256": "945d269e0825fbf78a5dc70e085f0c226dad30a3b75c7202ae09ea7558282084"
+    },
+    {
+      "path": "Numbered_Controller.thy",
+      "sha256": "74dc4e54050f5dbe0218049665460634f7b11567e3564278448e1162d51de938"
+    },
+    {
+      "path": "Physical_Controller.thy",
+      "sha256": "9331723a503f04a01287979361be8a006446badf29b42fcce8b9f26f76bada19"
+    },
+    {
+      "path": "Physical_Recovery.thy",
+      "sha256": "a43b95f0de5b8d01cd975dbe90e9b9c16ddb60dec4ac691139274279bdef4ea0"
+    },
+    {
+      "path": "ROOT",
+      "sha256": "eb643e424d4db0c1ee5c366296c259c773be8f98a6d24e48d9c620ce9604d647"
+    },
+    {
+      "path": "Round_Robin.thy",
+      "sha256": "19c1033b897aad7d8786a7a01d601ff5dd7f27bc16af4d5609adb50a690b7985"
+    },
+    {
+      "path": "Tunnel_CTLK.thy",
+      "sha256": "896d781ccc72695feaa0826e46e517c8878148c195115762ff9a644f33752ec6"
+    },
+    {
+      "path": "Tunnel_Knowledge.thy",
+      "sha256": "4afdd936c580814529570eed4830e45a90658b91e461c8d8e9b25540d15db8cb"
+    },
+    {
+      "path": "Tunnel_Liveness.thy",
+      "sha256": "ff2a0a0ef5e77bb44320bab03884d743e1619b514f118018161af680b4fc4ae0"
+    },
+    {
+      "path": "verify_generated_codec.ps1",
+      "sha256": "88cd99cd5dcaf45b9da543f0f87491ca7c443bd15df47cb35284d12d58ee5bf1"
+    }
+  ],
+  "scope": "Run record, not a signature or a proof of compiler/runtime correctness. Rebuild and compare the fresh session export to establish current provenance."
+}

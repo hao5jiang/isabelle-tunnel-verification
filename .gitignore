@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+.venv/
+.idea/
+.vscode/
+*.log
+.env
+.env.*
+.codec-export-*/
+.frame-export-*/
+.receiver-export-*/
+Thumbs.db
+.DS_Store
